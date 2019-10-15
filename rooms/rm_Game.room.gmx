@@ -3,8 +3,8 @@
   <caption></caption>
   <width>640</width>
   <height>480</height>
-  <vsnap>30</vsnap>
-  <hsnap>30</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -56,7 +56,7 @@
     <instance objName="obj_Wall" x="6" y="239" name="inst_7E4C5A33" locked="0" code="" scaleX="1" scaleY="30" colour="4294967295" rotation="0"/>
     <instance objName="obj_Bat" x="300" y="450" name="inst_E1129759" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ball" x="287" y="409" name="inst_6434A3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_controll" x="275" y="370" name="inst_4C4EB036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controll" x="547" y="430" name="inst_4C4EB036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Brick" x="90" y="60" name="inst_133EB6D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Brick" x="180" y="60" name="inst_93AFC44D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Brick" x="270" y="60" name="inst_66FD7A10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

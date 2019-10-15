@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>go = false;
+            <string>// v1.01 code
+go = false;
 _speed = 0;
+// v1.01 code
 </string>
           </argument>
         </arguments>
@@ -49,7 +51,8 @@ _speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if go == false
+            <string>// v1.01 code
+if go == false
 {
 x = obj_Bat.x;
 }
@@ -60,7 +63,13 @@ if y &gt; room_height
     lives -= 1;
     if lives &lt; 1
         {
-        room_restart();
+        // v1.01 code
+        //room_restart();
+        // v1.01 code
+        
+        // v1.02 code
+        with (obj_controll) go = false;
+        // v1.02 code
         }
     else
         {
@@ -78,6 +87,10 @@ else if x == room_width
 {
 move_bounce_all(true);
 }
+// v1.01 code
+
+
+
 
 
 
@@ -104,11 +117,13 @@ move_bounce_all(true);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var dir;
+            <string>// v1.01 code
+var dir;
 dir = direction - 180;
 scr_move_out(other, dir);
 move_bounce_all(true);
-sound_play(snd_bounce);
+sound_play(snd_bounce); // Not Working..?
+// v1.01 code
 </string>
           </argument>
         </arguments>
@@ -131,7 +146,8 @@ sound_play(snd_bounce);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var dir;
+            <string>// v1.01 code
+var dir;
 dir = point_direction(other.x, other.y, x, y);
 scr_move_out(other,dir);
 move_bounce_all(true);
@@ -141,9 +157,9 @@ move_bounce_all(true);
 
 //var _speed = obj_Ball.speed
 
-sound_play(snd_bounce);
+sound_play(snd_bounce); // Not  working..?
 
-
+// v1.01 code
 
 </string>
           </argument>
@@ -191,7 +207,8 @@ sound_play(snd_bounce);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var dir;
+            <string>// v1.01 code
+var dir;
 dir = point_direction(other.x, other.y, x, y);
 scr_move_out(other,dir);
 move_bounce_all(true);
@@ -207,10 +224,10 @@ else if _speed == 2
 speed--;
 }
 
-sound_play(snd_break);
+sound_play(snd_break); // not working .. ?
 
 with(other)instance_destroy();
-
+// v1.01 code
 
 </string>
           </argument>
